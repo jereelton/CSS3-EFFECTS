@@ -2,7 +2,18 @@
 
 @media screen and (max-width: 575px) {
 
-	.nav_page .button_nav_menu {
+	#nav_page #div_ul_nav {
+		height: 0px;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		position: absolute;
+		top: 50px;
+		right: 0px;
+		overflow: visible;
+	}
+
+	#nav_page #div_ul_nav .button_nav_menu {
 		display: block;
 		width: 48px;
 		height: 48px;
@@ -19,50 +30,51 @@
 		cursor: pointer;
 
 		position: absolute;
-		top: 1px;
+		top: -50px;
 		right: 1px;
 		z-index: 10000;
 	}
 
-	.nav_page .button_nav_menu--open {
+	#nav_page #div_ul_nav .button_nav_menu--open {
 		background-position: 5px 5px;
 	}
 
-	.nav_page .button_nav_menu--close {
+	#nav_page #div_ul_nav .button_nav_menu--close {
 		background-position: -45px 6px;
 	}
 
-	.nav_page #ul_nav {
+	#nav_page #div_ul_nav #ul_nav {
 		width: 100%;
 		float: none;
 		margin: 0px;
 		padding: 0px;
 		position: relative;
-		top: 50px;
 		height: 0px;
 		overflow: hidden;
 
-		transition: height 2s easing-out;
+		opacity: 0.85;
 	}
 
-	.nav_page #ul_nav li {
+	#nav_page #div_ul_nav #ul_nav li {
 		display: block;
 		width: 100%;
 		height: 40px;
+		margin: 0px;
 		padding: 5px;
 		text-align: left;
+		border-bottom: dotted #555555 1px
 	}
 
-	.header_main {
+	#header_main {
 		height: 35vh;
 	}
 
-	.header_main .h1_main_title {
+	#header_main .h1_main_title {
 		font-size: 180%;
 		border-top: solid #B4045F 50px;
 	}
 	
-	.header_main .h1_main_title strong {
+	#header_main .h1_main_title strong {
 		margin-top: 10px;
 		font-size: 14px;
 	}
@@ -104,64 +116,70 @@
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
-	.header_main {
+	#header_main {
 		height: 50vh;
 	}
 
-	.header_main .h1_main_title {
+	#header_main .h1_main_title {
 		font-size: 350%;
 		border-top: solid #B4045F 50px;
 	}
 	
-	.header_main .h1_main_title strong {
+	#header_main .h1_main_title strong {
 		font-size: 10px;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-	.header_main {
+	#header_main {
 		height: 65vh;
 	}
 
-	.header_main .h1_main_title {
+	#header_main .h1_main_title {
 		font-size: 500%;
 		border-top: solid #B4045F 50px;
 	}
 	
-	.header_main .h1_main_title strong {
+	#header_main .h1_main_title strong {
 		font-size: 40px;
+	}
+
+	#nav_page #div_ul_nav,
+	#nav_page #div_ul_nav #ul_nav {
+		display: block;
+		height: 50px;
 	}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
-	.header_main {
+	#header_main {
 		height: 80vh;
 	}
 
-	.header_main .h1_main_title {
+	#header_main .h1_main_title {
 		font-size: 650%;
 		border-top: solid #B4045F 50px;
 	}
 	
-	.header_main .h1_main_title strong {
+	#header_main .h1_main_title strong {
 		font-size: 50px;
 	}
 }
 
 @media screen and (min-width: 1200px) and (max-width: 2200px) {
 
-	.header_main {
+	#header_main {
 		height: 100vh;
 	}
 
-	.header_main .h1_main_title {
+	#header_main .h1_main_title {
 		font-size: 800%;
 		border-top: solid #B4045F 50px;
 	}
 	
-	.header_main .h1_main_title strong {
+	#header_main .h1_main_title strong {
 		font-size: 30px;
 	}
 }

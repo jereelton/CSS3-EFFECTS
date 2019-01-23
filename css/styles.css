@@ -27,14 +27,14 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box !important;
 }
 
-.header_page {
+#header_page {
 	width: 100% !important;
 	position: fixed;
 	z-index: 10000;
-	background: url('../img/logotipo.png') #454545 center left no-repeat;
+	background: url('../img/logotipo.png') #00008B center left no-repeat;
 }
 
-.nav_page {
+#nav_page {
 	color: #FFFFFF;
 	height: 50px;
 	width: 100%;
@@ -43,38 +43,47 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0px;
 }
 
-.nav_page .button_nav_menu {
+#nav_page #div_ul_nav {
+	height: 50px;
+	width: auto;
+	margin: 0px;
+	padding: 0px 10px;
+	position: relative;
+	float: right;
+	display: block;
+	overflow: hidden;
+}
+
+#nav_page #div_ul_nav .button_nav_menu {
 	display: none;
 }
 
-.nav_page #ul_nav {
-	height: auto;
+#nav_page #div_ul_nav #ul_nav {
+	height: 50px;
 	width: auto;
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
+	padding-top: 8px;
+	display: block;
 	float: right;
-	margin-top: 8px;
-	margin-right: 15px;
-	background-color: #454545;
-
-	transition: height 2s easing-out;
+	background-color: #00008B;
 }
 
-.nav_page #ul_nav li {
+#nav_page #div_ul_nav #ul_nav li {
 	margin: 2px;
 	display: inline-block;
 }
 
-.nav_page #ul_nav li a {
+#nav_page #div_ul_nav #ul_nav li a {
 	color: #00FFFF;
 }
 
-.nav_page #ul_nav li a:hover {
-	color: #BABABA;
+#nav_page #div_ul_nav #ul_nav li a:hover {
+	color: #DEDEDE;
 }
 
-.header_main {
+#header_main {
 	width: 100%;
 	overflow: hidden;
 	background: #B4045F;
@@ -82,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 50px;
 }
 
-.header_main .h1_main_title {
+#header_main .h1_main_title {
 	font-size: 800%;
 	text-align: center;
 	font-weight: bold;
@@ -93,12 +102,12 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 0px;
 }
 
-.header_main .h1_main_title strong {
+#header_main .h1_main_title strong {
 	display: block;
 	font-size: 40px;
 }
 
-.header_main .h1_main_title:hover {
+#header_main .h1_main_title:hover {
 	color: #121212;
 	text-shadow: #DDDDDD 2px 6px 8px;
 	border-top: solid #B4045F 50px;
