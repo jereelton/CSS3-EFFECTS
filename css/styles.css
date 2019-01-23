@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100% !important;
 	position: fixed;
 	z-index: 10000;
-	background: url('../img/logotipo.png') #00008B center left no-repeat;
+	background: url('../img/logotipo.png') #901F1A center left no-repeat;
 }
 
 #nav_page {
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 8px;
 	display: block;
 	float: right;
-	background-color: #00008B;
+	background-color: #901F1A;
 }
 
 #nav_page #div_ul_nav #ul_nav li {
@@ -76,11 +76,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav_page #div_ul_nav #ul_nav li a {
-	color: #00FFFF;
+	color: #FFFFFF;
 }
 
 #nav_page #div_ul_nav #ul_nav li a:hover {
-	color: #DEDEDE;
+	color: #006699;
 }
 
 #header_main {
@@ -89,6 +89,9 @@ h1, h2, h3, h4, h5, h6 {
 	background: #B4045F;
 	color: #FFFFFF;
 	margin-top: 50px;
+
+	background: url('../img/header_main_banner.png') center center no-repeat;
+	background-size: cover;
 }
 
 #header_main .h1_main_title {
@@ -96,7 +99,9 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 5px;
-	border-top: solid #B4045F 90px;
+	/*border-top: solid #B4045F 90px;*/
+	border: none;
+	position: relative;
 	text-shadow: #222222 2px 6px 8px;
 	margin: 0px;
 	padding-bottom: 0px;
@@ -108,9 +113,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header_main .h1_main_title:hover {
-	color: #121212;
-	text-shadow: #DDDDDD 2px 6px 8px;
-	border-top: solid #B4045F 50px;
+	color: #901F1A;
+	text-shadow: #FFFFFF 2px 3px 7px;
+	/*border-top: solid #B4045F 50px;*/
 	transition: all 2s;
 }
 

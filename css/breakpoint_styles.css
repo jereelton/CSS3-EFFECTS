@@ -24,7 +24,7 @@
 		background-repeat: no-repeat;
 		background-size: auto;
 
-		border-color: #00FFFF;
+		border-color: #FFFFFF;
 		border-style: solid;
 		border-radius: 5px;
 		cursor: pointer;
@@ -71,7 +71,8 @@
 
 	#header_main .h1_main_title {
 		font-size: 180%;
-		border-top: solid #B4045F 50px;
+		/*border-top: solid #B4045F 50px;*/
+		top: 50px;
 	}
 	
 	#header_main .h1_main_title strong {
@@ -122,7 +123,8 @@
 
 	#header_main .h1_main_title {
 		font-size: 350%;
-		border-top: solid #B4045F 50px;
+		/*border-top: solid #B4045F 50px;*/
+		top: 50px;
 	}
 	
 	#header_main .h1_main_title strong {
@@ -138,7 +140,8 @@
 
 	#header_main .h1_main_title {
 		font-size: 500%;
-		border-top: solid #B4045F 50px;
+		/*border-top: solid #B4045F 50px;*/
+		top: 50px;
 	}
 	
 	#header_main .h1_main_title strong {
@@ -160,7 +163,8 @@
 
 	#header_main .h1_main_title {
 		font-size: 650%;
-		border-top: solid #B4045F 50px;
+		/*border-top: solid #B4045F 50px;*/
+		top: 50px;
 	}
 	
 	#header_main .h1_main_title strong {
@@ -176,7 +180,8 @@
 
 	#header_main .h1_main_title {
 		font-size: 800%;
-		border-top: solid #B4045F 50px;
+		/*border-top: solid #B4045F 50px;*/
+		top: 50px;
 	}
 	
 	#header_main .h1_main_title strong {
